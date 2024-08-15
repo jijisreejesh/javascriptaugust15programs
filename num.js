@@ -1,5 +1,8 @@
 //find number of occurences of given character
-let s="hello world",t='O',c=0
+const prompt = require("prompt-sync")()
+let s=prompt("Enter the string : ")
+let t=prompt("Enter the character : ")
+let c=0
 s=s.toLowerCase()
 t=t.toLowerCase()
 if(s.includes(t))

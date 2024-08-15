@@ -1,5 +1,7 @@
 //program to find substring found or not
-let a="hello world",s="wory"
+let prompt=require("prompt-sync")()
+let a=prompt("Enter the string : ")
+let s=prompt("Enter the substring : ")
 if(a.includes(s))
 {
 console.log("Substring found in given string")

@@ -1,5 +1,7 @@
 //string palindrome or not
-let a=" amMa ",s='',c=0
+let prompt=require("prompt-sync")()
+let a=prompt("Enter the string : ")
+let s='',c=0
 a=a.toLowerCase()
 for(i=a.length-1;i>=0;i--)
 {

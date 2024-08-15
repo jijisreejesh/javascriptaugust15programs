@@ -1,5 +1,7 @@
 //program to print number of words in a string
-let a="hello World.how are you ",c=1
+let prompt=require("prompt-sync")()
+let a=prompt("Enter the string : ")
+let c=1
 a=a.trim()
 for(i=0;i<a.length;i++)
 {

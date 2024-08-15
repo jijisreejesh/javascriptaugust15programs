@@ -1,5 +1,7 @@
 //count vowels and consonents
-let s="WElcome",c=0,c1=0
+let prompt=require("prompt-sync")()
+let s=prompt("Enter the string : ")
+let c=0,c1=0
 s=s.toLowerCase()
 for(i=0;i<s.length;i++)
 {
